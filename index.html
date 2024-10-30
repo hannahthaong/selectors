@@ -101,7 +101,7 @@
             <legend><a id="descedant">descendant</a></legend>
             <p>A descendant selector effects all element inside the current element, at any level</p>
             <p>Here's how the CSS is applied to the element:</p>
-            <pre><code>li.new-list,div#new-div{
+            <pre><code>div.grandkids li{
     background-color:red;
 }</code></pre>
 
@@ -109,6 +109,8 @@
             <p>Here's what it looks like:</p>
             <div class="grandkids">
                 <ul>
+                    <li>I'm inside grandkids list</li>
+                    <li>I'm inside grandkids list</li>
                     <li>I'm inside grandkids list</li>
                    
                 </ul>
